@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <!-- Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&display=swap" rel="stylesheet">
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--favicon-->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/a31ac28e21.js" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+</head>
+
+<body>
+
+  <!-- First section -->
+  <section id="first-section">
+
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-light">
+
+        <a class="navbar-brand"><img class="logo" src="images/logo.svg" /></a>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Sign In</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="row first-row">
+
+        <div class="col-6">
+          <h1>All your files in one secure location, accessible anywhere.</h1>
+
+          <p>
+            Fylo stores your most important files in one secure location.
+            Access them wherever you need, share and collaborate with friends,
+            family, and co-workers.
+          </p>
+
+          <form id="email-form">
+            <input id="form-control-first" class="shadow form-control" type="text" name="email" value="Enter your Email">
+          </form>
+          <button class="shadow btn btn-primary top-btn" form="email-form" type="button" name="email">Get started</button>
+
+        </div>
+
+        <div class="col-6">
+          <img src="images/illustration-1.svg" alt="">
+        </div>
+      </div>
+
+
+
+  </section>
+
+  <!-- second section -->
+
+  <section id="second-section">
+
+    <div class="container-fluid">
+
+
+
+      <div class="row second-row">
+        <div class="col-6">
+          <h1>Stay productive, wherever you are</h1>
+
+          <p>
+            Never let location be an issue when accessing your files. Fylo has you
+            covered for all of your file storage needs.
+          </p>
+
+          <p>
+            Securely share files and folders with friends, family and colleagues for
+            live collaboration. No email attachments required!
+          </p>
+
+          <a class="second-section-link">See how Fylo works<i class="fa-solid fa-circle-arrow-right arrow-img"></i></a>
+
+          <div class="shadow quote">
+            <h1 class="quotation-mark">❝</h1>
+            <p>
+
+              Fylo has improved our team productivity by an order of magnitude. Since
+              making the switch our team has become a well-oiled collaboration machine.
+
+            </p>
+
+            <img class="profile-pic" src="images/avatar-testimonial-modified.png" alt="">
+            <h5>Kyle Burton</h5>
+            <p class="quote-par-ceo">
+              Founder & CEO, Huddle
+            </p>
+          </div>
+
+        </div>
+
+        <div class="col-6">
+          <img class="second-img" src="images/illustration-2.svg" alt="">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!--third section -->
+
+  <section id="third-section">
+    <div class="container-fluid">
+
+      <div class="row">
+        <div class="col-7">
+          <h2>Get early access today</h2>
+
+          <p class="third-section-par">
+            It only takes a minute to sign up and our free starter tier is extremely generous.
+            If you have any questions, our support team would be happy to help you.
+
+          </p>
+        </div>
+
+        <div class="col-5">
+          <form id="second-email-form" action="index.html" method="post">
+            <input id="form-control-second" class="shadow form-control" type="text" name="" value="">
+
+            <button class="shadow btn btn-primary buttom-btn">Get Started For Free</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section id = "last-section">
+    <div class="container-fluid">
+      <nav class="navbar navbar-dark">
+
+
+        <ul class="navbar-nav">
+          <li class = "nav-item">
+            <a class = "nav-link"></a><img class = "bottom-logo" src = "images/logo - Copy.svg"/></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><img class = "nav-icon" src = "images/icon-phone.svg"/>Phone: +1-543-123-4567</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"><img class = "nav-icon" src= "images/icon-email.svg"/>example@fylo.com</a>
+          </li>
+
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Jobs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Press</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Blog</a>
+          </li>
+
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Terms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link">Privacy</a>
+          </li>
+        </ul>
+
+        <div class = "social-media">
+          <a class="btn btn-floating  rounded-circle"><i class="fab fa-facebook"></i></a>
+          <a class="btn btn-floating  rounded-circle"><i class="fab fa-twitter"></i></a>
+          <a class="btn btn-floating  rounded-circle"><i class="fab fa-instagram"></i></a>
+        </div>
+
+
+
+        </ul>
+
+
+
+
+
+
+
+      </nav>
+
+    </div>
+
+  </section>
+
+
+
+</body>
+
+</html>

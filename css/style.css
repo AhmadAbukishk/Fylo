@@ -1,0 +1,179 @@
+body {
+  font-family: "Raleway";
+}
+
+h1 {
+  font-weight: 800;
+  padding-top: 12%;
+}
+
+p {
+  font-family: "Open Sans";
+  padding-right: 20%;
+  font-weight: 500;
+}
+
+
+section {
+  padding: 2% 5%;
+}
+
+a {
+  font-family: "Open Sans";
+}
+
+.btn {
+  border-radius: 2px;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+#second-section{
+  background-image: url("../images/bg-curve-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 5%;
+}
+
+#third-section {
+ background-color: 	#585989;
+ color: white;
+ padding-top: 5%;
+ padding-bottom: 5%;
+}
+
+#last-section {
+  background-color: #070439;
+
+}
+
+/* first section */
+
+img {
+  width: 100%;
+}
+
+.logo {
+  width: 65%;
+}
+
+.first-row {
+  padding: 5% 0;
+}
+
+.top-btn {
+  padding: 1.5% 8%;
+}
+
+#form-control-first {
+  color: #D1D1D1;
+  padding: 3% 3% 4%;
+}
+
+#email-form{
+  display: inline-block;
+  padding-right: 2%;
+  width: 47%;
+}
+
+/*  Second section */
+
+
+
+.second-img {
+  padding: 15% 0 0 10%;
+
+}
+
+.quote {
+  background-color: white;
+  font-size: 0.9rem;
+  width: 55%;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.quotation-mark {
+  font-size: 2rem;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.quote-par-ceo {
+  font-size: 0.7rem;
+}
+
+.profile-pic {
+  width: 20%;
+  float:left;
+  padding-right: 5%;
+}
+
+.second-section-link{
+  color: #3c9f8f;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
+}
+
+.arrow-img {
+  margin-left: 5px;
+}
+
+h5 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+/* third-section */
+
+h2 {
+  font-weight: bold;
+}
+
+.buttom-btn{
+  padding: 2.5% 7%;
+}
+
+.third-section-par {
+  padding-right: 35%;
+}
+
+.social-media {
+  position: relative;
+  right: 100px;
+  width: 10%;
+}
+
+.social-media .btn{
+  color: white;
+  background-color: #070439;
+  padding: 2% 5%;
+  margin: 0 2%;
+  border: solid white 1px;
+}
+
+.nav-icon {
+  width: 7%;
+  margin-right: 10px;
+}
+
+.bottom-logo {
+  width: 75%;
+  margin-bottom: 10px;
+}
+
+#form-control-second {
+  padding: 2% 0;
+  margin-bottom: 3%;
+}
+
+#second-email-form {
+  width: 90%;
+}
+
+#last-section a {
+  color: white;
+}
